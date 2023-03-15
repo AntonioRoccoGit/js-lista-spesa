@@ -16,6 +16,6 @@ console.log(shoppingItemList);
 let i = 0;
 while (i < shoppingItemList.length){
     console.log(shoppingItemList[i]);
-    shoppingList.innerHTML += `<li>${shoppingItemList[i]}</li>`
+    shoppingList.innerHTML += `<li>${shoppingItemList[i]}</li>`;
     i++;
 }
